@@ -39,7 +39,7 @@ export default function Home() {
           <div>
             <h1 className="mb-3">Cartethyia pulls</h1>
             <h4 className="mb-3">deluxe maximum schizophrenia 50/50 winner</h4>
-            <a className="btn btn-outline-light btn-lg" href="#!" role="button">
+            <a className="btn btn-outline-light btn-lg" href="/pulls" role="button">
               xdd we windows
             </a>
           </div>
