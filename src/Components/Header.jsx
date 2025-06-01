@@ -17,7 +17,7 @@ export default function Header() {
                 <a className="nav-link text-white" href="#">About</a>
               </li>
               <li className="nav-item mx-4">
-                <a className="nav-link text-white" href="#">Github</a>
+                <a className="nav-link text-white" href="https://github.com/cuongh1799/cartpull">Github</a>
               </li>
             </ul>
           </div>
