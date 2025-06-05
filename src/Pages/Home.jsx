@@ -1,5 +1,5 @@
 import Header from "../Components/Header";
-import backgroundVideo from "../Assets/cart.mp4"; // Replace with your actual path
+import backgroundVideo from "../Assets/cart.mp4"; 
 
 export default function Home() {
   return (

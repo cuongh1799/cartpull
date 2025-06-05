@@ -14,8 +14,11 @@ export default function Header() {
                 <a className="nav-link text-white" href="/pulls">Pulls</a>
               </li>
               <li className="nav-item mx-4">
-                <a className="nav-link text-white" href="#">About</a>
+                <a className="nav-link text-white" href="/gacha">Gacha</a>
               </li>
+              {/* <li className="nav-item mx-4">
+                <a className="nav-link text-white" href="/about">About</a>
+              </li> */}
               <li className="nav-item mx-4">
                 <a className="nav-link text-white" href="https://github.com/cuongh1799/cartpull">Github</a>
               </li>

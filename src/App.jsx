@@ -3,6 +3,8 @@ import Header from "./Components/Header";
 import Home from "./Pages/Home";
 import Pulls from "./Pages/Pulls";
 import { AnimatePresence, motion } from "framer-motion";
+import Gacha from "./Pages/Gacha";
+import About from "./Pages/About";
 
 export default function App() {
   return (
@@ -27,6 +29,8 @@ export default function App() {
           }
         />
         <Route path="/pulls" element={<Pulls />} />
+        <Route path="/gacha" element={<Gacha />} />
+        <Route path="/about" element={<About/>} />
       </Routes>
     </>
   );
