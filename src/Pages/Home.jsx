@@ -1,16 +1,21 @@
 import Header from "../Components/Header";
-import backgroundVideo from "../Assets/cart.mp4"; 
 
 export default function Home() {
   return (
-     <>
-      <div style={{ position: "relative", height: "calc(100vh - 7vh)", overflow: "hidden" }}>
+    <>
+      <div
+        style={{
+          position: "relative",
+          height: "calc(100vh - 7vh)",
+          overflow: "hidden",
+        }}
+      >
         {/* Background Video */}
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
+        <iframe
+          src="https://www.youtube.com/embed/UhwB-1VKa7k?autoplay=1&mute=1&loop=1&playlist=UhwB-1VKa7k&controls=0&showinfo=0&modestbranding=1"
+          frameBorder="0"
+          allow="autoplay; fullscreen"
+          allowFullScreen
           style={{
             position: "absolute",
             top: "50%",
@@ -18,13 +23,11 @@ export default function Home() {
             width: "100vw",
             height: "100vh",
             objectFit: "cover",
-            transform: "translate(-50%, -50%) scale(2.2)", // zooms in slightly
+            transform: "translate(-50%, -50%) scale(2.2)",
             zIndex: -1,
+            pointerEvents: "none", // Don't block interactions
           }}
-        >
-          <source src={backgroundVideo} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        />
 
         {/* Overlay content */}
         <div
@@ -39,7 +42,11 @@ export default function Home() {
           <div>
             <h1 className="mb-3">Cartethyia pulls</h1>
             <h4 className="mb-3">deluxe maximum schizophrenia 50/50 winner</h4>
-            <a className="btn btn-outline-light btn-lg" href="/pulls" role="button">
+            <a
+              className="btn btn-outline-light btn-lg"
+              href="/pulls"
+              role="button"
+            >
               xdd we windows
             </a>
           </div>

@@ -11,11 +11,10 @@ body {
 
 .gif-container {
   position: relative;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background-color: #000;
+  z-index: 1;
+  pointer-events: auto;
 }
+
 
 .gif-img {
   position: absolute;

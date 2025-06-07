@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import backgroundVideo from "../Assets/cart.mp4"; // Replace with your actual path
 
 export default function Gacha() {
   const [result, setResult] = useState(null);
